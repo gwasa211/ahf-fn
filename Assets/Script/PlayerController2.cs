@@ -15,6 +15,9 @@ public class PlayerController2 : MonoBehaviour
     private float jumpCooldown = 0.6f; // 쿨타임 설정
     private float lastJumpTime = 0f; // 마지막 점프 시간
 
+    // 스위치 변수 추가
+    private bool isSwitchOn = false;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -58,11 +61,28 @@ public class PlayerController2 : MonoBehaviour
         }
     }
 
+    // 아이템 먹었을 때 호출할 함수 추가
+    public void TurnOnSwitch()
+    {
+        isSwitchOn = true;
+        Debug.Log("스위치 ON");
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Respawn"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            if (isSwitchOn)
+            {
+                // 스위치가 켜져 있으면 오브젝트 파괴
+                Destroy(collision.gameObject);
+                Debug.Log("스위치 ON 상태, Respawn 오브젝트 파괴");
+            }
+            else
+            {
+                // 스위치가 꺼져 있으면 씬 재로딩
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
         }
 
         if (collision.CompareTag("Finish"))
