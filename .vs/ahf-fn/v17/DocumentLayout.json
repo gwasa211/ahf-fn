@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Master\\RPDLADPSWLSWNDRKSQKFVYRHKWP\\ahf-fn\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6FECDAB5-6C89-D0D7-95C7-778A9ABF6B90}|Assembly-CSharp.csproj|c:\\users\\master\\rpdladpswlswndrksqkfvyrhkwp\\ahf-fn\\assets\\script\\stoneedge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FECDAB5-6C89-D0D7-95C7-778A9ABF6B90}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\stoneedge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6FECDAB5-6C89-D0D7-95C7-778A9ABF6B90}|Assembly-CSharp.csproj|C:\\Users\\Master\\RPDLADPSWLSWNDRKSQKFVYRHKWP\\ahf-fn\\assets\\script\\levelobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FECDAB5-6C89-D0D7-95C7-778A9ABF6B90}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\levelobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FECDAB5-6C89-D0D7-95C7-778A9ABF6B90}|Assembly-CSharp.csproj|c:\\users\\master\\rpdladpswlswndrksqkfvyrhkwp\\ahf-fn\\assets\\script\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FECDAB5-6C89-D0D7-95C7-778A9ABF6B90}|Assembly-CSharp.csproj|C:\\Users\\Master\\RPDLADPSWLSWNDRKSQKFVYRHKWP\\ahf-fn\\assets\\script\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FECDAB5-6C89-D0D7-95C7-778A9ABF6B90}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "StoneEdge.cs",
+              "DocumentMoniker": "C:\\Users\\Master\\RPDLADPSWLSWNDRKSQKFVYRHKWP\\ahf-fn\\Assets\\Script\\StoneEdge.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\StoneEdge.cs",
+              "ToolTip": "C:\\Users\\Master\\RPDLADPSWLSWNDRKSQKFVYRHKWP\\ahf-fn\\Assets\\Script\\StoneEdge.cs",
+              "RelativeToolTip": "Assets\\Script\\StoneEdge.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T15:52:48.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\Master\\RPDLADPSWLSWNDRKSQKFVYRHKWP\\ahf-fn\\Assets\\Script\\Item.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Item.cs",
@@ -42,12 +59,11 @@
               "RelativeToolTip": "Assets\\Script\\Item.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T14:43:42.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T14:43:42.51Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LevelObject.cs",
               "DocumentMoniker": "C:\\Users\\Master\\RPDLADPSWLSWNDRKSQKFVYRHKWP\\ahf-fn\\Assets\\Script\\LevelObject.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\LevelObject.cs",
@@ -55,12 +71,11 @@
               "RelativeToolTip": "Assets\\Script\\LevelObject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T13:27:01.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T13:27:01.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SceneTrigger1.cs",
               "DocumentMoniker": "C:\\Users\\Master\\RPDLADPSWLSWNDRKSQKFVYRHKWP\\ahf-fn\\Assets\\Script\\SceneTrigger1.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\SceneTrigger1.cs",
@@ -72,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlayerController2.cs",
               "DocumentMoniker": "C:\\Users\\Master\\RPDLADPSWLSWNDRKSQKFVYRHKWP\\ahf-fn\\Assets\\Script\\PlayerController2.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerController2.cs",
@@ -84,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\Master\\RPDLADPSWLSWNDRKSQKFVYRHKWP\\ahf-fn\\Assets\\Script\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerController.cs",
