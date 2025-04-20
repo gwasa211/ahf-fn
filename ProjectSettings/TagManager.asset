@@ -7,6 +7,9 @@ TagManager:
   - Boundary
   - Enemy
   - Wall
+  - PlayerProjectile1
+  - PlayerProjectile2
+  - PlayerAttack
   layers:
   - Default
   - TransparentFX
@@ -17,7 +20,7 @@ TagManager:
   - Enemy
   - Player
   - Wall
-  - 'Obstacle '
+  - 
   - 
   - 
   - 

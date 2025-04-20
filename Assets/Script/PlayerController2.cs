@@ -16,7 +16,8 @@ public class PlayerController2 : MonoBehaviour
     private float lastJumpTime = 0f; // 마지막 점프 시간
 
     // 스위치 변수 추가
-    private bool isSwitchOn = false;
+  
+    private bool isInvincible = false;
 
     private void Awake()
     {
@@ -61,26 +62,25 @@ public class PlayerController2 : MonoBehaviour
         }
     }
 
-    // 아이템 먹었을 때 호출할 함수 추가
-    public void TurnOnSwitch()
+    // 무적 상태 활성화 함수
+    public void TurnOnInvincible()
     {
-        isSwitchOn = true;
-        Debug.Log("스위치 ON");
+        isInvincible = true;
+        Debug.Log("무적 상태 ON");
+        // 필요시 무적 효과 지속 시간 처리 추가 가능
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Respawn"))
+        if (collision.CompareTag("Enemy") || collision.CompareTag("Respawn"))
         {
-            if (isSwitchOn)
+            if (isInvincible)
             {
-                // 스위치가 켜져 있으면 오브젝트 파괴
                 Destroy(collision.gameObject);
-                Debug.Log("스위치 ON 상태, Respawn 오브젝트 파괴");
+                Debug.Log("무적 상태 - 적 파괴");
             }
             else
             {
-                // 스위치가 꺼져 있으면 씬 재로딩
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
         }

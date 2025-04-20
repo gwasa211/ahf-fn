@@ -8,7 +8,7 @@ public class GameGo : MonoBehaviour
     
     public void SceneChange()
     {
-        SceneManager.LoadScene("SampleScene_Door1");
+        SceneManager.LoadScene("Level_1");
     }
 
 // Start is called before the first frame update
