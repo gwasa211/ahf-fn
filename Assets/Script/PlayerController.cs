@@ -31,9 +31,6 @@ public class PlayerController : MonoBehaviour
 
     private bool isMoving = false;  // 현재 이동 상태 저장용
 
-    float score;
-    
-
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -45,7 +42,6 @@ public class PlayerController : MonoBehaviour
 
         if (myAnimator != null)
             myAnimator.SetBool("Move", false);
-        score = 1000f;
     }
 
     private void Update()
@@ -98,7 +94,6 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(Vector2.up * currentJumpForce, ForceMode2D.Impulse);
             lastJumpTime = Time.time;
         }
-        score -= Time.deltaTime;
     }
 
     // 무적 상태 ON
@@ -159,7 +154,6 @@ public class PlayerController : MonoBehaviour
         }
         else if (collision.CompareTag("Finish"))
         {
-            HighScore.Tryset(SceneManager.GetActiveScene().buildIndex, (int)score);
             var levelObject = collision.GetComponent<LevelObject>();
             if (levelObject != null)
             {
