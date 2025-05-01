@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
 
 public class YourCharacterScript : MonoBehaviour
@@ -47,6 +48,7 @@ public class YourCharacterScript : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
     private bool facingRight = true;
+    float score;
 
     private void Awake()
     {
@@ -232,6 +234,7 @@ public class YourCharacterScript : MonoBehaviour
         }
         else if (collision.CompareTag("Finish"))
         {
+            HighScore.Tryset(SceneManager.GetActiveScene().buildIndex, (int)score);
             var levelObject = collision.GetComponent<LevelObject>();
             if (levelObject != null)
             {

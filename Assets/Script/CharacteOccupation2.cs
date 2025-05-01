@@ -48,6 +48,7 @@ public class CharacteOccupation2 : MonoBehaviour
     public float shotgunProjectileSpeed = 8f;
     public float shotgunSpreadAngle = 45f;
     public float shotgunDestroyDelay = 6f;
+    float score;
 
     private void Awake()
     {
@@ -200,6 +201,8 @@ public class CharacteOccupation2 : MonoBehaviour
         }
         else if (collision.CompareTag("Finish"))
         {
+            HighScore.Tryset(SceneManager.GetActiveScene().buildIndex, (int)score);
+
             var levelObject = collision.GetComponent<LevelObject>();
             if (levelObject != null)
             {
