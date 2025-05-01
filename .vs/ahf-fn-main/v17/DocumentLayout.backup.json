@@ -1,13 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\git\\\uC0C8 \uD3F4\uB354\\ahf-fn-main\\",
+  "WorkspaceRootPath": "C:\\git\\ahf-fn-main (2)\\ahf-fn-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3AA43C4-056A-0555-3108-6C92176288EC}|Assembly-CSharp.csproj|c:\\git\\\uC0C8 \uD3F4\uB354\\ahf-fn-main\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3AA43C4-056A-0555-3108-6C92176288EC}|Assembly-CSharp.csproj|C:\\git\\ahf-fn-main (2)\\ahf-fn-main\\assets\\script\\deta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3AA43C4-056A-0555-3108-6C92176288EC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\deta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3AA43C4-056A-0555-3108-6C92176288EC}|Assembly-CSharp.csproj|c:\\git\\ahf-fn-main (2)\\ahf-fn-main\\assets\\script\\helpmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3AA43C4-056A-0555-3108-6C92176288EC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\helpmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3AA43C4-056A-0555-3108-6C92176288EC}|Assembly-CSharp.csproj|C:\\git\\ahf-fn-main (2)\\ahf-fn-main\\assets\\script\\playercontroller2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3AA43C4-056A-0555-3108-6C92176288EC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3AA43C4-056A-0555-3108-6C92176288EC}|Assembly-CSharp.csproj|C:\\git\\ahf-fn-main (2)\\ahf-fn-main\\assets\\script\\characteoccupation2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3AA43C4-056A-0555-3108-6C92176288EC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\characteoccupation2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3AA43C4-056A-0555-3108-6C92176288EC}|Assembly-CSharp.csproj|C:\\git\\ahf-fn-main (2)\\ahf-fn-main\\assets\\script\\characteoccupation1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3AA43C4-056A-0555-3108-6C92176288EC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\characteoccupation1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3AA43C4-056A-0555-3108-6C92176288EC}|Assembly-CSharp.csproj|C:\\git\\ahf-fn-main (2)\\ahf-fn-main\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3AA43C4-056A-0555-3108-6C92176288EC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3AA43C4-056A-0555-3108-6C92176288EC}|Assembly-CSharp.csproj|C:\\git\\\uC0C8 \uD3F4\uB354\\ahf-fn-main\\assets\\script\\slidingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3AA43C4-056A-0555-3108-6C92176288EC}|Assembly-CSharp.csproj|C:\\git\\ahf-fn-main (2)\\ahf-fn-main\\assets\\script\\slidingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3AA43C4-056A-0555-3108-6C92176288EC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\slidingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,25 +43,87 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\git\\\uC0C8 \uD3F4\uB354\\ahf-fn-main\\Assets\\Script\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\PlayerController.cs",
-              "ToolTip": "C:\\git\\\uC0C8 \uD3F4\uB354\\ahf-fn-main\\Assets\\Script\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Script\\PlayerController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAAFAAAAAAAAAA==",
+              "Title": "Deta.cs",
+              "DocumentMoniker": "C:\\git\\ahf-fn-main (2)\\ahf-fn-main\\Assets\\Script\\Deta.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Deta.cs",
+              "ToolTip": "C:\\git\\ahf-fn-main (2)\\ahf-fn-main\\Assets\\Script\\Deta.cs",
+              "RelativeToolTip": "Assets\\Script\\Deta.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvwQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T05:30:11.545Z",
+              "WhenOpened": "2025-04-30T05:48:27.269Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "HelpMenu.cs",
+              "DocumentMoniker": "C:\\git\\ahf-fn-main (2)\\ahf-fn-main\\Assets\\Script\\HelpMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\HelpMenu.cs",
+              "ToolTip": "C:\\git\\ahf-fn-main (2)\\ahf-fn-main\\Assets\\Script\\HelpMenu.cs",
+              "RelativeToolTip": "Assets\\Script\\HelpMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T06:25:34.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerController2.cs",
+              "DocumentMoniker": "C:\\git\\ahf-fn-main (2)\\ahf-fn-main\\Assets\\Script\\PlayerController2.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerController2.cs",
+              "ToolTip": "C:\\git\\ahf-fn-main (2)\\ahf-fn-main\\Assets\\Script\\PlayerController2.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerController2.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvxUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T06:16:04.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CharacteOccupation2.cs",
+              "DocumentMoniker": "C:\\git\\ahf-fn-main (2)\\ahf-fn-main\\Assets\\Script\\CharacteOccupation2.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CharacteOccupation2.cs",
+              "ToolTip": "C:\\git\\ahf-fn-main (2)\\ahf-fn-main\\Assets\\Script\\CharacteOccupation2.cs",
+              "RelativeToolTip": "Assets\\Script\\CharacteOccupation2.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T06:14:42.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CharacteOccupation1.cs",
+              "DocumentMoniker": "C:\\git\\ahf-fn-main (2)\\ahf-fn-main\\Assets\\Script\\CharacteOccupation1.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CharacteOccupation1.cs",
+              "ToolTip": "C:\\git\\ahf-fn-main (2)\\ahf-fn-main\\Assets\\Script\\CharacteOccupation1.cs",
+              "RelativeToolTip": "Assets\\Script\\CharacteOccupation1.cs",
+              "ViewState": "AgIAANgAAAAAAAAAAAAAAOwAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T06:13:53.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\git\\ahf-fn-main (2)\\ahf-fn-main\\Assets\\Script\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerController.cs",
+              "ToolTip": "C:\\git\\ahf-fn-main (2)\\ahf-fn-main\\Assets\\Script\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvyEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T05:30:11.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SlidingPlatform.cs",
-              "DocumentMoniker": "C:\\git\\\uC0C8 \uD3F4\uB354\\ahf-fn-main\\Assets\\Script\\SlidingPlatform.cs",
+              "DocumentMoniker": "C:\\git\\ahf-fn-main (2)\\ahf-fn-main\\Assets\\Script\\SlidingPlatform.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\SlidingPlatform.cs",
-              "ToolTip": "C:\\git\\\uC0C8 \uD3F4\uB354\\ahf-fn-main\\Assets\\Script\\SlidingPlatform.cs",
+              "ToolTip": "C:\\git\\ahf-fn-main (2)\\ahf-fn-main\\Assets\\Script\\SlidingPlatform.cs",
               "RelativeToolTip": "Assets\\Script\\SlidingPlatform.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T05:20:07.064Z"
             }

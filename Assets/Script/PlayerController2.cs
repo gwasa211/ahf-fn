@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class PlayerController2 : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class PlayerController2 : MonoBehaviour
     // 스위치 변수 추가
   
     private bool isInvincible = false;
+    float score;
 
     private void Awake()
     {
@@ -87,6 +89,7 @@ public class PlayerController2 : MonoBehaviour
 
         if (collision.CompareTag("Finish"))
         {
+            HighScore.Tryset(SceneManager.GetActiveScene().buildIndex, (int)score);
             collision.GetComponent<LevelObject>().MoveToNextLevel();
         }
     }
