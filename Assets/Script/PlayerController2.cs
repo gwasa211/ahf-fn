@@ -89,9 +89,14 @@ public class PlayerController2 : MonoBehaviour
         }
 
         if (collision.CompareTag("Finish"))
-        {
-            HighScore.Tryset(SceneManager.GetActiveScene().buildIndex, (int)score);
-            collision.GetComponent<LevelObject>().MoveToNextLevel();
+        {  //HighScore.Tryset(SceneManager.GetActiveScene().buildIndex, (int)score);
+            StageResultSaver.SaveStage(SceneManager.GetActiveScene().buildIndex, (int)score);
+
+            var levelObject = collision.GetComponent<LevelObject>();
+            if (levelObject != null)
+            {
+                levelObject.MoveToNextLevel();
+            }
         }
     }
 }

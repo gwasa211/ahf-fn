@@ -159,7 +159,9 @@ public class PlayerController : MonoBehaviour
         }
         else if (collision.CompareTag("Finish"))
         {
-            HighScore.Tryset(SceneManager.GetActiveScene().buildIndex, (int)score);
+            //HighScore.Tryset(SceneManager.GetActiveScene().buildIndex, (int)score);
+            StageResultSaver.SaveStage(SceneManager.GetActiveScene().buildIndex, (int)score);
+
             var levelObject = collision.GetComponent<LevelObject>();
             if (levelObject != null)
             {
